@@ -1,6 +1,8 @@
 main {
     background-color: #000000;
     min-height: 100vh;
+    background-image: radial-gradient(#646464 1px, transparent 1px);
+    background-size: 100px 100px;
 }
 
 aside#element-sidebar {
@@ -29,7 +31,7 @@ aside#element-sidebar {
 }
 
 .element-item:hover {
-    background-color: #727272;
+    filter: brightness(1.2);
     transform: scale(1.05);
     transition: all 0.3s ease;
 }
